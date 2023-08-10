@@ -9,7 +9,6 @@ button {
     padding: 5px;
     font-size: smaller;
 }
-
 h1,
 h2,
 h3,
@@ -173,15 +172,15 @@ span {
     width: 50px;
     padding: 0;
     position: relative;
-    left: 200px;
+    left: 100px;
 }
 
 .lasty {
-    float: left;
     position: relative;
     bottom: 50px;
     text-indent: 5px;
     margin: 0;
+    padding: 10px;
 }
 
 .middle img {
@@ -196,7 +195,6 @@ span {
 .middle {
     position: relative;
     bottom: 80px;
-    text-indent: 50px;
     padding: 10px;
     margin: 0;
     
@@ -205,28 +203,38 @@ span {
     background-color: white;
     width: 50px;
     padding: 0;
+    position: relative;
+    left: 200px;
+    top: 20px;
 }
 .recent{
     position: relative;
     bottom: 80px;
-    text-indent: 50px;
     padding: 10px;
     margin: 0;
 }
-
-footer {
+.Guy{
     display: flex;
-    gap: 20px;
-    float: left;
-    margin: 20px;
-    clear: left;
+    background-color: white;
 }
 
-.Foot {
 
-    flex-direction: row;
+.Foot {
+    display: flex;
     gap: 20px;
     position: relative;
-    clear: right;
-    left: 900px;
+    ;
+}
+.one{
+    position: relative;
+    left: 150px;
+    word-spacing: 30px;
+
+    ;
+}
+.two{
+    position: relative;
+    left: 500px;
+    word-spacing: 30px;
+    text-underline-offset: none;
 }
